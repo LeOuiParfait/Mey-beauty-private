@@ -1,6 +1,4 @@
 import { NextResponse } from "next/server";
-import { getDb } from "../../../db";
-import { privateEventLeads } from "../../../db/schema";
 
 type LeadPayload = {
   occasion?: string;
@@ -50,8 +48,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "invalid_payload" }, { status: 400 });
     }
 
-    const db = await getDb();
-    await db.insert(privateEventLeads).values({
+    console.log("private-event lead", {
       id: crypto.randomUUID(),
       createdAt: new Date(),
       occasion: clean(body.occasion, 80),
