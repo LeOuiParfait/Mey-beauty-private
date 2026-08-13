@@ -1,0 +1,5 @@
+import type { Metadata } from "next";
+import SeoLanding from "../_components/SeoLanding";
+
+export const metadata: Metadata = { title: "Privatisation institut beauté 91 | Mey Beauty Privé", description: "Privatisez un institut de beauté en Essonne (91) pour un anniversaire, un EVJF ou un moment entre amies. Soins, buffet et options sur devis." };
+export default function Page() { return <SeoLanding kicker="Privatisation institut beauté 91" title="Un institut de beauté privatisé en Essonne pour votre groupe." intro="Anniversaire, EVJF ou parenthèse entre amies : Mey Beauty réserve ses espaces à votre célébration." locationText="Notre équipe organise votre réception privée à Viry-Châtillon, dans l’Essonne. Les soins, l’accueil gourmand et chaque option sont dimensionnés en fonction du groupe et du budget." highlights={["Créneau réservé à votre groupe", "Programme beauté modulable", "Ambiance musicale et décoration", "Buffet et boissons sur mesure", "Photobooth et souvenirs", "Organisation de A à Z"]} />; }
