@@ -217,7 +217,7 @@ export default function Home() {
         </div>
         <div className="journey-content">
           <span className="kicker">L’Escapade Signature</span>
-          <h2>Une journée pensée<br /><em>comme un scénario.</em></h2>
+          <h2>Une expérience imaginée<br /><em>dans les moindres détails.</em></h2>
           <div className="journey-steps">
             {[
               ["01", "On vient vous chercher", "Navette avec chauffeur jusqu’à 8 places, berline de luxe 4 places ou dispositif adapté à votre groupe."],
