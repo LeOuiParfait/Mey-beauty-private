@@ -160,7 +160,7 @@ export default function Home() {
       <section className="intro-section">
         <div>
           <span className="kicker">Une célébration qui vous ressemble</span>
-          <h2>De l’institut à Paris,<br /><em>nous créons votre parenthèse.</em></h2>
+          <h2>Votre journée, entièrement imaginée<br /><em>pour vous.</em></h2>
         </div>
         <div className="intro-copy">
           <p>Réunissez vos proches dans un institut entièrement privatisé, où beauté, détente et gourmandise s’accordent à votre rythme.</p>
