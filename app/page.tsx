@@ -120,7 +120,7 @@ export default function Home() {
       <header className="site-header">
         <a href="#accueil" className="brand" aria-label="Mey Beauty Private — accueil">
           <Image src="/assets/mey-beauty-logo.png" alt="Mey Beauty Paris" width={196} height={73} priority unoptimized />
-          <span>Privé</span>
+          <span>Private</span>
         </a>
         <button className="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
           <span /><span />
@@ -145,7 +145,7 @@ export default function Home() {
         />
         <div className="hero-shade" />
         <div className="hero-content">
-          <span className="kicker light">Mey Beauty Privé · Viry-Châtillon</span>
+          <span className="kicker light">Mey Beauty Private · Viry-Châtillon</span>
           <h1>Votre institut.<br /><em>Rien que pour vous.</em></h1>
           <p>EVJF · Anniversaire · Moment entre amies · Parenthèse bien-être</p>
           <div className="hero-actions">
@@ -170,7 +170,7 @@ export default function Home() {
 
       <section className="experiences" id="experiences">
         <div className="section-heading centered">
-          <span className="kicker">Deux manières de vivre Mey Beauty Privé</span>
+          <span className="kicker">Deux manières de vivre Mey Beauty Private</span>
           <h2>Choisissez votre <em>expérience</em></h2>
           <p>Chaque proposition est ajustée à votre groupe, vos envies et votre budget.</p>
         </div>
