@@ -65,7 +65,7 @@ export default function Home() {
 
   const whatsappMessage = useMemo(() => {
     const details = [
-      "Bonjour Mey Beauty, je souhaite recevoir une proposition pour Mey Beauty Privé.",
+      "Bonjour Mey Beauty, je souhaite recevoir une proposition pour Mey Beauty Private.",
       `Occasion : ${form.occasion || "à préciser"}`,
       `Date : ${form.date || "à préciser"}`,
       `Groupe : ${form.participants} participantes`,
@@ -118,7 +118,7 @@ export default function Home() {
       <div className="announcement">Une célébration sur mesure à Viry-Châtillon · De 4 à 15 participantes · Sur devis</div>
 
       <header className="site-header">
-        <a href="#accueil" className="brand" aria-label="Mey Beauty Privé — accueil">
+        <a href="#accueil" className="brand" aria-label="Mey Beauty Private — accueil">
           <Image src="/assets/mey-beauty-logo.png" alt="Mey Beauty Paris" width={196} height={73} priority unoptimized />
           <span>Privé</span>
         </a>
@@ -350,7 +350,7 @@ export default function Home() {
       </section>
 
       <section className="local-links">
-        <span className="kicker">Mey Beauty Privé en Essonne</span>
+        <span className="kicker">Mey Beauty Private en Essonne</span>
         <h2>Votre célébration commence<br /><em>à Viry-Châtillon.</em></h2>
         <div>
           <a href="/evjf-spa-essonne">EVJF spa en Essonne <span>↗</span></a>
@@ -361,7 +361,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <div className="footer-brand"><Image src="/assets/mey-beauty-logo.png" alt="Mey Beauty Paris" width={196} height={73} unoptimized /><span>Privé</span><p>Des moments de beauté qui deviennent des souvenirs.</p></div>
+        <div className="footer-brand"><Image src="/assets/mey-beauty-logo.png" alt="Mey Beauty Paris" width={196} height={73} unoptimized /><span>Private</span><p>Des moments de beauté qui deviennent des souvenirs.</p></div>
         <div><span className="footer-label">Nous trouver</span><p>6 place des Martyrs de Châteaubriant<br />91170 Viry-Châtillon</p></div>
         <div><span className="footer-label">Votre projet</span><a href="tel:+33749226801">{PHONE_DISPLAY}</a><a href={WHATSAPP_URL} target="_blank" rel="noreferrer">Nous écrire sur WhatsApp</a></div>
         <div><span className="footer-label">Navigation</span><a href="#experiences">Les expériences</a><a href="#configurateur">Créer mon événement</a></div>
